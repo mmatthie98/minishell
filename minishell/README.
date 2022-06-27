@@ -1,0 +1,41 @@
+some basic args to test parsing :
+
+basic :
+- cat lol cat lol catlol cat lol lol lol                       lol;
+- "";
+- catlol                                      cat;
+- lol;
+
+for quotes :
+- 'cat""lol' "lol'laquotes'" mdrrr'lol' "letest'deouf";
+- ok'doncla"camarche"' "et la?" 'canedevrait"pas' "poserde soucis";
+- "par contrela'c'est un peu problematique";
+- "un autre test"l;
+
+for add_space :
+- cat|lol;
+- >cat|lol;
+- cat>|lol;
+- cat||lol;
+
+
+expand :
+
+- "lol$PATH" echo $PWD;
+- cat $PATH cat$PATH cat$PATH cat$PATH;
+- cat "$PATH" lol "oups"$mdr;
+
+Git commit on branch :
+
+- git branch -a;
+- git checkout "the name branch";
+- doing some stuff;
+- git add .;
+"never forget to commit bro"
+- git commit -am "commit message"
+- git push;
+
+
+BE CAREFULL !!
+- git merge (will merge everything from commit)
+
