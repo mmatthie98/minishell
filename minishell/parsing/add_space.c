@@ -37,7 +37,7 @@ static int	ft_check_token(char c, char d)
 		if (c == token[i])
 		{
 			if (c == d)
-				return (1);
+				return (2);
 			else
 				return (0);
 		}
